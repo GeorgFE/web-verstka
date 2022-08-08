@@ -124,7 +124,7 @@ margin: 0 auto 206px;
     height: 1129px;
     padding-top: 128px;
     padding-bottom: 271px;
-    background: url(img/buildings__white_3165.png) bottom center repeat-x,url(img/buildings__black_3164.png) bottom center repeat-x,#1e1d1e;
+    background: url(img/buildings__black_3164.png) center 101% repeat-x,url(img/buildings__white_3165.png) center 101% repeat-x,#1e1d1e;
     
 }
 .about__inner {
@@ -134,7 +134,7 @@ margin: 0 auto 206px;
     grid-template-columns: max-content max-content;
     grid-template-rows: max-content max-content;
     grid-gap:178px;
-    
+    place-content: center center;
 }
 .about__item {
     height: 276px;width: 417px;background-color: #191819;
@@ -143,7 +143,7 @@ margin: 0 auto 206px;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    place-content: center center;
+    
 }
 .about__year {
     font-family: "HelveticaNeueLTProRoman",sans-serif;
@@ -165,6 +165,79 @@ color: #b7b7b7;
 
 
 }
+.team {
+    width: 1200px;
+height: 745px;
+background-color: #ffffff;
+margin: 0 auto;
+
+}
+.block__head {
+    flex-direction: column;
+    text-align: center;
+}
+.block__title {font-family: "HelveticaNeueLTProRoman",sans-serif;
+    font-size: 34px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+    margin-top: 138px;
+    margin-bottom: 13px;
+}
+.block__title2 {font-family: "Merriweather-LightItalic",serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+    margin-bottom: 131px;
+}
+.team__inner {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 146px;
+}
+.team__image {width: 169px;
+    height: 169px;
+    
+}
+.team__name {font-family: "HelveticaNeueLTProRoman",sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #464646;
+}
+.team__role {font-family: "HelveticaNeueLTProRoman",sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #b3b3b3;
+    
+}
+.team__soc {
+   font-size: 20px;
+color: #e4e4e4;
+}
+.icon-instagram {
+}
+.icon-twitter-1 {
+}
+.team__soc a{
+    font-size: 20px;
+ color: #8a8a8a;
+ transition: .5s;
+ }
+
+.team__soc a:hover{
+   font-size: 20px;
+color: #323232;
+}
+
+
 
 /*
 font-family: "HelveticaNeueLTProLt",sans-serif;
