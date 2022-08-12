@@ -42,7 +42,7 @@ margin: 0;
 }
 .container{
     width: 1200px;
-    border: red 1px solid;
+    
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -502,7 +502,7 @@ color: #3b3b3b;
         left: 5px;
         right: 5px;
         transition: background 0s 0.3s;
-          
+
     }
     .menu__burger span:after,
     .menu__burger span:before  {
