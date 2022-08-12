@@ -176,7 +176,7 @@ margin: 0 auto;
     flex-direction: column;
     text-align: center;
 }
-.block__title {font-family: "HelveticaNeueLTProRoman",sans-serif;
+.block__title{font-family: "HelveticaNeueLTProRoman",sans-serif;
     font-size: 34px;
     line-height: 26px;
     font-weight: 400;
@@ -235,6 +235,161 @@ color: #e4e4e4;
 .team__soc a:hover{
    font-size: 20px;
 color: #323232;
+}
+.ikonki {
+    margin: 0 auto;
+    background-color: #191819;
+    width: 1200px;
+height: 835px;
+padding-top: 170px;
+text-align: center;
+}
+.ikonki__head {
+}
+.ikonki__title {
+    font-family: "HelveticaNeueLTProLt",sans-serif;
+font-size: 34px;
+
+font-weight: 400;
+letter-spacing: 0.02em;
+color: #ffffff;
+margin-bottom: -10px;
+}
+.ikonki__title2 {font-family: "Merriweather-LightItalic",sans-serif;
+    font-size: 16px;
+    
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #777777;
+    
+}
+.ikonki__inner {
+    display: flex;
+    flex-direction: row;
+    padding-top: 138px;
+    place-content:space-around;
+
+}
+.ikonki_item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ikonki__case {
+    padding-left: 50px;
+}
+.ikonki__image {
+}
+.ikonki__name2 {
+    transform: translate(-117px,-60px);
+}
+.ikonki__name3 {
+    transform: translate(-120px,-55px);
+}
+.ikonki__name {font-family: "HelveticaNeueLTProLt",sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    
+}
+.ikonki__role {font-family: "HelveticaNeueLTProLt",sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #383838;
+    width: 335px;
+    height: 40px;
+}
+.contact {
+    padding-top: 95px;
+    margin: 0 auto;
+}
+.contact__head {
+    text-align: center;
+}
+.contact__title {
+    font-family: "HelveticaNeueLTProLt",sans-serif;
+font-size: 34px;
+
+font-weight: 400;
+letter-spacing: 0.02em;
+color: #1d1e1f;
+
+}
+.contact__title2 {
+    padding-bottom:  20px;
+    font-family: "Merriweather-LightItalic",sans-serif;
+font-size: 16px;
+
+font-weight: 300;
+font-style: italic;
+letter-spacing: 0.02em;
+color: #898888;
+
+}
+.contact__inner {
+}
+.contact__icon-box {
+    display: flex;
+    justify-content: center;
+}
+.contact__item {
+    text-align: center;
+}
+.contact__img {
+}
+.contact__text {font-family: "Merriweather-LightItalic",sans-serif;
+    font-size: 16px;
+    
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+}
+.some__text {
+}
+.contact__form {
+    display: flex;flex-direction: column;
+    max-width: 770px;
+    margin: 0 auto;
+    font-family: "HelveticaNeueLTProLt",sans-serif;
+font-size: 15px;
+line-height: 26px;
+font-weight: 400;
+letter-spacing: 0.02em;
+color: #898888;
+}
+.contact__name {
+}
+.contact__email {
+}
+.contact__number {
+}
+.contact__textarea {
+}
+.contact__button {font-family: "HelveticaNeueLTProMd",sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+}
+.footer {
+}
+.footer__text {
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt",sans-serif;
+font-size: 14px;
+line-height: 26px;
+font-weight: 400;
+letter-spacing: 0.02em;
+color: #3b3b3b;
+
 }
 
 
