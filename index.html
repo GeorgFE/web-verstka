@@ -2,23 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="fontello.css">
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
-            <nav>
+            <nav class="menu__desktop">
                 <ul class="menu">
-                    <li class="menu__item active"><a href="#">Home</a></li>
-                    <li class="menu__item"><a href="#">About Us</a></li>
-                    <li class="menu__item"><a href="#">Team</a></li>
+                    <li class="menu__item active"><a href="#header">Home</a></li>
+                    <li class="menu__item"><a href="#about">About Us</a></li>
+                    <li class="menu__item"><a href="#team">Team</a></li>
                     <li class="menu__item"><a href="#"><img src="img/logo.png" alt="" class="logo"></a></li>
-                    <li class="menu__item"><a href="#">Service</a></li>
-                    <li class="menu__item"><a href="#">Blog</a></li>
-                    <li class="menu__item"><a href="#">Contact Us</a></li>
+                    <li class="menu__item"><a href="#ikonki">Service</a></li>
+                    <li class="menu__item"><a href="#ikonki">Blog</a></li>
+                    <li class="menu__item"><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav class="menu__mobile">
+                    <div class="menu__inner">
+                    <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+                    <div class="menu__burger"><span>menu</span></div>
+                    </div>
+                    <ul class="menu">
+                    <li class="menu__item active"><a href="#header">Home</a></li>
+                    <li class="menu__item"><a href="#about">About Us</a></li>
+                    <li class="menu__item"><a href="#team">Team</a></li>
+                    
+                    <li class="menu__item"><a href="#ikonki">Service</a></li>
+                    <li class="menu__item"><a href="#ikonki">Blog</a></li>
+                    <li class="menu__item"><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="header__content">
@@ -28,7 +44,7 @@
             </div>
         </div>
     </header>
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="about__inner">
                 <div class="about__item">
@@ -51,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="team">
+    <div class="team" id="team">
         <div class="container">
             <div class="block__head">
                 <h2 class="block__title">This is our team</h2>
@@ -83,7 +99,7 @@
             </div>
         </div>
     </div> 
-    <div class="ikonki">
+    <div class="ikonki" id="ikonki">
         <div class="container">
             <div class="ikonki__head">
                 <h2 class="ikonki__title">We provide you everything</h2>
@@ -111,11 +127,12 @@
             </div>
         </div>
     </div> 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <div class="contact__head">
                 <h2 class="contact__title">Contac Us</h2>
-                <p class="contact__title2">We know what we need to do</p></div>
+                <p class="contact__title2">We know what we need to do</p>
+            </div>
             <div class="contact__inner">
                 <div class="contact__icon-box">
                     <div class="contact__item">
@@ -131,7 +148,8 @@
                         <div class="contact__text"><a href="mailto:somemail@hotmail.com" class="contact__text">somemail@hotmail.com</a></div>
                     </div>
                 </div>
-                <form action="" class="contact__form"><input type="text" placeholder="Full Name" class="contact__name"><input type="email" placeholder="Email" class="contact__email"><input type="number" placeholder="Number" class="contact__number"><textarea name="" id="" cols="30" rows="10" placeholder="Write your Message here..." class="contact__textarea"></textarea><button class="contact__button">Submit</button></form>
+                <form action="" class="contact__form"><input type="text" placeholder="Full Name" class="contact__name"><input type="email" placeholder="Email" class="contact__email">
+                    <input type="number" placeholder="Number" class="contact__number"><textarea  placeholder="Write your Message here..." class="contact__textarea"></textarea><input class="contact__button" type="submit" value="Submit"></form>
             </div>
         </div>
         <div class="footer">
@@ -140,6 +158,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="js/jquery-3.6.0.min (1).js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
