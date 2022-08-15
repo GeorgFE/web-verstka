@@ -3,7 +3,7 @@
 ## Hello,there! :wave:
  Практикуюсь верстке сайта.
  [>>>Ссылка для перехода на страницу<<<](https://georgfe.github.io/web-verstka/)
- [![Картинка не прогрузилась :(](2022-08-15_22-17-02.jpg)](https://georgfe.github.io/web-verstka/)
+ [![Картинка не прогрузилась :(](2022-08-15_22-17-02.png)](https://georgfe.github.io/web-verstka/)
 
 
 ## что я реализовал в этом проекте:
